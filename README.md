@@ -1,0 +1,2 @@
+# chrome-easysearch
+easysearch
