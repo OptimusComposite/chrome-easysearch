@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="../scripts/search.js"></script>
+    </head> 
+    <body>
+        <div>
+            <form>
+                <select name="search_engine">
+                    <option>--please choose a search engine--</option>
+                    <option value="google" selected="selected">Google</option>
+                    <option value="baidu">Baidu</option>
+                    <option value="sougou">Sougou</option>
+                </select>   
+                <select name="search_site">
+                    <option>--please choose a site--</option>
+                    <option value="stackoverflow" selected="selected">StackOverflow</option>
+                    <option value="zhihu">Zhihu</option>
+                </select>
+                <input type="text" />
+                <button onclick="run">Search</button>
+            </form>   
+        </div>
+        <button onclick="window.open('https://www.baidu.com', '_blank')">run</button>
+    </body>   
+</html>   
+

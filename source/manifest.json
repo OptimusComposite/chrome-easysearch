@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Easy Search",
+  "description": "...",
+  "version": "0.1",
+
+  "icons": {
+    "24": "images/search_24.png",
+    "48": "images/search_48.png",
+    "72": "images/search_72.png"
+  },
+  "permissions": [
+    "tabs",
+    "alarms"
+  ],
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "options_page": "pages/options.html",
+  "browser_action": {
+    "default_icon": {
+      "24": "images/search_24.png",
+      "48": "images/search_48.png",
+      "72": "images/search_72.png"
+    },
+    "default_title": "easy_search",
+    "default_popup": "pages/search_action.html"
+  }
+
+}
