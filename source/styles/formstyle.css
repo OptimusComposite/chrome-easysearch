@@ -1,0 +1,26 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 100px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}

@@ -1,6 +1,8 @@
 <html>
     <head>
+        <script src="../scripts/jquery.min.js"></script>
         <script src="../scripts/search.js"></script>
+        <link rel="stylesheet" href="../styles/formstyle.css" type="text/css">
     </head> 
     <body>
         <div>
@@ -16,11 +18,10 @@
                     <option value="stackoverflow" selected="selected">StackOverflow</option>
                     <option value="zhihu">Zhihu</option>
                 </select>
-                <input type="text" />
-                <button onclick="run">Search</button>
-            </form>   
+                <input type="text" id="keyword" />
+                <input type="submit" id="searchbutton" />
+            </form>
         </div>
-        <button onclick="window.open('https://www.baidu.com', '_blank')">run</button>
     </body>   
 </html>   
 
